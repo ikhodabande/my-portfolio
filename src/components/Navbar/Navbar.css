@@ -60,3 +60,55 @@
 .active {
   color: yellow;
 }
+
+.mobMenu{
+  display: none;
+  object-fit: cover;
+  height: 1.8rem;
+  
+}
+
+
+.navMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 0.5rem;
+  height: fit-content;
+  /* width: 100vw; */
+  min-width: 15rem;
+  background: rgb(40,40,40);
+  border-radius: 1rem;
+}
+
+ .listItem{
+  text-align: center;
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30,30,30);
+}
+
+.listItem:hover {
+  cursor: pointer;
+}
+
+@media screen  and (max-width:590px){
+  .mobMenu{
+    display: grid;
+  }
+  .desktopMenuListItem{
+    display: none;
+  }
+  .desktopMenuBtn{
+    display: none;
+  }
+  .active {
+    color: yellow;
+    
+  }
+}
