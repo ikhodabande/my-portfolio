@@ -8,4 +8,12 @@
   background-color: rgb(40,40,40);
   font-size: small;
   font-weight: 300;
+  text-align: center;
+}
+
+@media screen and (max-width:400px){
+ .footer {
+  font-size: 1.5vh;
+ }
+  
 }
