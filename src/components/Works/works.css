@@ -49,6 +49,10 @@
   border-radius: 2rem;
 }
 
+.workBtn:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width:560px){
  .worksImg{
   height:50vh ;
