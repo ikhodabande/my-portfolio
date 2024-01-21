@@ -1,7 +1,7 @@
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Intro from './components/Intro/intro';
-import Navbar from './components/Navbar/navbar'
+import Navbar from './components/Navbar/navbar';
 import Skill from './components/Skill/skill';
 import Works from './components/Works/works';
 

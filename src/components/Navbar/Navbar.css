@@ -1,10 +1,12 @@
 
 .navbar {
-  background: rgb(30, 30, 30);
-  height: 4rem;
+  /* background: rgba(187, 187, 187, 0.229); */
+  height: 1rem;
   width: 100vw;
-  max-width: 85rem;
+  /* max-width: 85rem; */
+  border-radius: 5px;
   margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.374);
   padding: 2rem 1rem;
   display: flex;
   align-items: center;
@@ -91,7 +93,7 @@
   color: white;
   padding: 0.5rem 3rem;
   margin: 0.25rem;
-  background: rgb(30,30,30);
+  background: rgb(255, 255, 255);
 }
 
 .listItem:hover {
